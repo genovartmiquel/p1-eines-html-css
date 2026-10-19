@@ -1,0 +1,26 @@
+{
+  "name": "genovart_miquel_p1_eineshtmlicss",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.html",
+  "browserslist": [
+    "last 10 years"
+  ],
+  "scripts": {
+    "start": "npm-run-all clean parcel:dev",
+    "build": "npm-run-all clean parcel:build",
+    "parcel:dev": "parcel",
+    "parcel:build": "parcel build",
+    "clean": "rimraf dist .parcel-cache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "parcel": "^2.16.4",
+    "posthtml-include": "^2.0.1",
+    "rimraf": "^6.1.3"
+  }
+}
