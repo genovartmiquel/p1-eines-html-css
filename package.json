@@ -2,7 +2,14 @@
   "name": "genovart_miquel_p1_eineshtmlicss",
   "version": "1.0.0",
   "description": "",
-  "source": "index.html",
+  "source": [
+  "index.html",
+  "categoria/index.html",
+  "det1/index.html",
+  "det2/index.html",
+  "links/index.html"
+],
+
   "browserslist": [
     "last 10 years"
   ],
