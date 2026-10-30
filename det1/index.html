@@ -11,7 +11,7 @@
   </head>
 
   <body>
-    <a href="#contingut">Salta al contingut</a>
+    <a class="salta-contingut" href="#contingut">Salta al contingut</a>
 
     <include src="./partials/header.html"></include>
 
@@ -28,22 +28,40 @@
           <h2 id="presentacio-titol">Un plat amb sabor de Mallorca</h2>
 
           <p>
-            Els calamars farcits combinen els sabors de la mar amb
-            una elaboració pausada. Al Celler Son Guixa els presentam
-            com un plat per gaudir sense presses, acompanyat de
-            la seva salsa.
+            Els calamars farcits uneixen mar i carn en una mateixa cassola.
+            La salsa amb panses i pinyons aporta un contrapunt dolç al
+            farciment. Al Celler Son Guixa els proposam com un plat
+            per compartir i assaborir amb calma.
           </p>
+
         </section>
 
         <section aria-labelledby="ingredients-titol">
           <h2 id="ingredients-titol">Els ingredients</h2>
 
           <p>
-            Aquesta versió parteix de calamars, ceba, tomàtiga, all,
-            julivert, ou i pa ratllat. Les aletes i els tentacles
-            s’aprofiten per preparar el farciment, mentre que les
-            verdures formen la base de la salsa.
+            El farciment combina carn de porc i vedella amb els tentacles
+            del calamar. La millorana i el julivert hi aporten aroma.
           </p>
+          <h3>Per als calamars i la salsa</h3>
+          <ul>
+            <li>6 calamars frescs</li>
+            <li>Farina de blat per enfarinar</li>
+            <li>1 ceba grossa i 2 tomàtigues madures grosses</li>
+            <li>Un grapat de pinyons i un de panses</li>
+            <li>100 ml de vi blanc</li>
+            <li>1 culleradeta de pebre bord dolç</li>
+            <li>Oli per daurar, sal, pebre bo i aigua</li>
+          </ul>
+
+          <h3>Per al farciment</h3>
+          <ul>
+            <li>125 g de carn picada de porc i 125 g de vedella</li>
+            <li>Els tentacles dels calamars, picats</li>
+            <li>Julivert i millorana frescs</li>
+            <li>2 alls i 2 ous</li>
+            <li>50 ml de brandi</li>
+          </ul>
 
           <img
             src="../img/calamars-farcits/calamars-farcits-ingredients.jpg"
@@ -56,14 +74,12 @@
           <h2 id="preparacio-titol">La preparació</h2>
 
           <p>
-            Es netegen els calamars i es prepara el farciment amb
-            les aletes i els tentacles picats, all, julivert, ou i
-            pa ratllat. S’omplen sense atapeir-los i es tanquen amb
-            un escuradents. Després es couen dins un sofregit de
-            ceba i tomàtiga fins que queden tendres i el farciment
-            està ben cuit.
+            Mescla el farciment, omple els calamars deixant espai i
+            tanca’ls amb escuradents. Enfarina’ls i daura’ls. Prepara
+            un sofregit amb ceba, tomàtiga i pebre bord; incorpora-hi
+            el vi i aigua. Acaba la cocció dels calamars dins la salsa
+            amb panses i pinyons. Retira els escuradents abans de servir.
           </p>
-
           <img
             src="../img/calamars-farcits/calamars-farcits-preparacio.jpg"
             alt="Preparació dels calamars farcits"
@@ -74,16 +90,27 @@
         <section aria-labelledby="video-titol">
           <h2 id="video-titol">La recepta en vídeo</h2>
 
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube-nocookie.com/embed/CDPla3hyl60"
-            title="Vídeo de preparació de calamars farcits"
-            loading="lazy"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
+          <div class="video-recepta">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube-nocookie.com/embed/CDPla3hyl60"
+              title="Vídeo de preparació de calamars farcits"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
         </section>
+
+        <p class="font-recepta">
+          Recepta adaptada a partir de
+          <a href="https://www.recetasmallorquinas.es/2019/11/calamares-rellenos-carne-calamars-farcits.html">
+          Calamares rellenos de carne, de Maria Gibert
+          </a>,
+          publicada a Recetas Mallorquinas.
+        </p>
+
       </article>
 
       <p>

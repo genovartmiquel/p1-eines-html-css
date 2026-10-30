@@ -11,27 +11,27 @@
   </head>
 
   <body>
-    <a href="#contingut">Salta al contingut</a>
+    <a class="salta-contingut" href="#contingut">Salta al contingut</a>
 
     <include src="./partials/header.html"></include>
 
-    <main id="contingut">
+    <main id="contingut" class="pagina-categoria">
       <h1>La nostra cuina</h1>
 
       <p>
-        Al Celler Son Guixa celebram la cuina mediterrània i els sabors
-        de Mallorca. Descobreix dos plats de la nostra proposta
-        gastronòmica: calamars farcits i aguiat de pilotes.
+        Al Celler Son Guixa celebram la cuina mediterrània i els sabors de Mallorca. Descobreix dos plats de la nostra proposta gastronòmica: calamars farcits i aguiat de pilotes.
       </p>
 
       <section aria-labelledby="plats-titol">
         <h2 id="plats-titol">Els nostres plats</h2>
 
         <article class="plat">
-          <img
-            src="../img/calamars-farcits/calamars-farcits-principal.jpg"
-            alt="Calamars farcits servits amb salsa"
-          >
+          <a class="foto-plat" href="../det1/index.html" aria-label="Veure la recepta de calamars farcits">
+            <img
+              src="../img/calamars-farcits/calamars-farcits-principal.jpg"
+              alt="Calamars farcits servits amb salsa"
+            >
+          </a>
 
           <h3>Calamars farcits</h3>
 
@@ -46,16 +46,18 @@
         </article>
 
         <article class="plat">
-          <img
-            src="../img/aguiat-pilotes/aguiat-pilotes-principal.jpg"
-            alt="Aguiat de pilotes amb patates i salsa"
-          >
+          <a class="foto-plat" href="../det2/index.html" aria-label="Veure la recepta d’aguiat de pilotes">
+            <img
+              src="../img/aguiat-pilotes/aguiat-pilotes-principal.jpg"
+              alt="Aguiat de pilotes amb patates i salsa"
+            >
+          </a>
 
           <h3>Aguiat de pilotes</h3>
 
           <p>
-            Un plat de cullera amb pilotes de carn i patates,
-            cuinat a poc a poc per gaudir dels sabors de casa.
+            Un plat de cullera amb pilotes de carn, verdures i picada
+            d’ametles, cuinat a poc a poc per gaudir dels sabors de casa.
           </p>
 
           <a href="../det2/index.html">

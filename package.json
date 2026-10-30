@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "source": [
-  "index.html",
-  "categoria/index.html",
-  "det1/index.html",
-  "det2/index.html",
-  "links/index.html"
-],
-
+    "index.html",
+    "categoria/index.html",
+    "det1/index.html",
+    "det2/index.html",
+    "links/index.html"
+  ],
   "browserslist": [
     "last 10 years"
   ],

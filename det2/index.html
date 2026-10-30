@@ -11,7 +11,7 @@
   </head>
 
   <body>
-    <a href="#contingut">Salta al contingut</a>
+    <a class="salta-contingut" href="#contingut">Salta al contingut</a>
 
     <include src="./partials/header.html"></include>
 
@@ -28,10 +28,10 @@
           <h2 id="presentacio-titol">Cuina de casa, feta a poc a poc</h2>
 
           <p>
-            L’aguiat de pilotes és un plat de cullera que convida
-            a compartir taula. Combina pilotes de carn, verdures
-            i patates en una salsa saborosa, amb una elaboració
-            que dona protagonisme a la cocció pausada.
+            Aquest aguiat combina pilotes de carn i verdures amb una salsa
+            acabada amb picada d’ametles. És una proposta de cassola que
+            permet servir una ració completa, amb salsa per acompanyar
+            amb un bon tros de pa.
           </p>
         </section>
 
@@ -39,12 +39,35 @@
           <h2 id="ingredients-titol">Els ingredients</h2>
 
           <p>
-            Per preparar aquesta versió utilitzam carn picada,
-            ou, pa ratllat, all i julivert per a les pilotes.
-            L’aguiat es completa amb patates, ceba, tomàtiga,
-            pastanaga, pèsols, brou i oli d’oliva.
+            La sobrassada, el bacó i la millorana donen caràcter a les
+            pilotes. Les verdures aporten varietat i la picada espesseix
+            la salsa.
           </p>
+          <h3>Per a les pilotes</h3>
+          <ul>
+            <li>250 g de carn picada de porc</li>
+            <li>250 g de carn picada de vedella</li>
+            <li>100 g de sobrassada i 100 g de bacó picat</li>
+            <li>2 ous</li>
+            <li>2 culleradetes de millorana</li>
+            <li>Farina per enfarinar i oli d’oliva per fregir</li>
+          </ul>
 
+          <h3>Per a l’aguiat</h3>
+          <ul>
+            <li>800 ml d’aigua</li>
+            <li>3 tomàtigues de ramellet triturades</li>
+            <li>1 ceba grossa i 2 pastanagues</li>
+            <li>150 g de pèsols i 150 g de mongetes tendres</li>
+            <li>Sal, pebre bo i un pessic de nou moscada</li>
+          </ul>
+
+          <h3>Per a la picada</h3>
+          <ul>
+            <li>50 g d’ametles pelades</li>
+            <li>Julivert fresc</li>
+            <li>1 cullerada de midó de blat de moro</li>
+          </ul>
           <img
             src="../img/aguiat-pilotes/pilotes-de-nadal-ingredients.jpg"
             alt="Ingredients per preparar aguiat de pilotes"
@@ -56,12 +79,11 @@
           <h2 id="preparacio-titol">La preparació</h2>
 
           <p>
-            Es mescla la carn amb l’ou, el pa ratllat, l’all i el
-            julivert, es formen les pilotes i es dauren. A part,
-            es prepara un sofregit de ceba i tomàtiga. S’hi afegeixen
-            les verdures, les patates, el brou i les pilotes,
-            i es deixa coure fins que la carn està ben cuita
-            i les patates són tendres.
+            Mescla els ingredients de les pilotes amb els condiments,
+            forma-les, enfarina-les i daura-les. Prepara el sofregit
+            de ceba i tomàtiga i incorpora’l a la cassola amb les pilotes
+            i l’aigua. Afegeix-hi les verdures prèviament cuites i acaba
+            l’aguiat amb la picada. Deixa’l reposar breument abans de servir.
           </p>
 
           <img
@@ -74,16 +96,27 @@
         <section aria-labelledby="video-titol">
           <h2 id="video-titol">La recepta en vídeo</h2>
 
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube-nocookie.com/embed/gZYGmhFtaXE"
-            title="Vídeo de preparació d’aguiat de pilotes"
-            loading="lazy"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
+          <div class="video-recepta">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube-nocookie.com/embed/gZYGmhFtaXE"
+              title="Vídeo de preparació d’aguiat de pilotes"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
         </section>
+
+        <p class="font-recepta">
+          Recepta adaptada a partir de
+          <a href="https://www.recetasmallorquinas.es/2019/10/aguiat-de-pilotes-guiso-de-albondigas.html">
+          Aguiat de pilotes, de Maria Gibert
+          </a>,
+          publicada a Recetas Mallorquinas.
+        </p>
+
       </article>
 
       <p>

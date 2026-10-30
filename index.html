@@ -3,25 +3,69 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celler Son Guixa · Cuina mediterrània a Sineu</title>
 
-    <title>Celler Son Guixa</title>
-
-    <link rel="stylesheet" href="css/styles.css">
-    <script type="module" src="index.js"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script type="module" src="./index.js"></script>
   </head>
 
   <body>
-    <a href="#contingut">Salta al contingut</a>
+    <a class="salta-contingut" href="#contingut">Salta al contingut</a>
 
     <include src="./partials/header.html"></include>
 
     <main id="contingut">
-      <h1>Celler Son Guixa</h1>
-      <p>Contingut pendent.</p>
+      <section class="presentacio" aria-labelledby="presentacio-titol">
+        <p class="subtitol">Sineu · Mallorca</p>
+        <h1 id="presentacio-titol">Celler Son Guixa</h1>
+        <p>
+          Cuina mediterrània, receptes de casa i temps per
+          gaudir de cada plat. Descobreix la nostra proposta
+          gastronòmica al cor de Mallorca.
+        </p>
+        <a class="boto" href="./categoria/index.html">
+          Descobreix la nostra cuina
+        </a>
+      </section>
+
+      <section aria-labelledby="especialitats-titol">
+        <h2 id="especialitats-titol">Dues especialitats de la casa</h2>
+
+        <div class="graella-plats">
+          <article class="plat">
+            <img
+              src="./img/calamars-farcits/calamars-farcits-principal.jpg"
+              alt="Plat de calamars farcits"
+            >
+            <h3>Calamars farcits</h3>
+            <p>Els sabors de la mar en una recepta per assaborir amb calma.</p>
+            <a href="./det1/index.html">Descobreix els calamars farcits</a>
+          </article>
+
+          <article class="plat">
+            <img
+              src="./img/aguiat-pilotes/aguiat-pilotes-principal.jpg"
+              alt="Plat d’aguiat de pilotes"
+            >
+            <h3>Aguiat de pilotes</h3>
+            <p>Una proposta de cullera que ens apropa a la cuina de casa.</p>
+            <a href="./det2/index.html">Descobreix l’aguiat de pilotes</a>
+          </article>
+        </div>
+      </section>
+
+      <section aria-labelledby="celler-titol">
+        <h2 id="celler-titol">La nostra manera d’entendre la cuina</h2>
+        <p>
+          El Celler Son Guixa és una proposta gastronòmica fictícia
+          situada a Sineu, creada per a aquesta pràctica acadèmica.
+          Pren com a inspiració la cuina mallorquina i el plaer
+          de compartir taula.
+        </p>
+        <a href="./links/index.html">Consulta les fonts i els crèdits</a>
+      </section>
     </main>
 
-    <footer>
-      <p>Celler Son Guixa · Sineu</p>
-    </footer>
+    <include src="./partials/footer.html"></include>
   </body>
 </html>
