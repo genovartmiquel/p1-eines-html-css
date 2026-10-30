@@ -11,7 +11,7 @@
   box-sizing: border-box;
 }
 
-/* Evita salts laterals entre pagines curtes i llargues. */
+/* EVITAR salts laterals entre pagines curtes i llargues */
 html {
   overflow-y: scroll;
 }
@@ -107,6 +107,11 @@ a:focus {
   text-decoration: none;
 }
 
+/* El clic al logotip no dibuixa el contorn; el teclat el conserva. */
+.marca:focus:not(:focus-visible) {
+  outline: none;
+}
+
 .marca-simbol {
   display: flex;
   flex: 0 0 60px;
@@ -167,7 +172,8 @@ nav a {
   color: white;
 }
 
-.capcalera-web nav {
+.capcalera-web nav,
+.peu-interior nav {
   padding-top: 1rem;
 }
 
@@ -280,7 +286,8 @@ img {
   border-radius: 0.35rem;
 }
 
-.plat img {
+.plat img,
+.foto-recepta img {
   width: 100%;
 }
 
@@ -312,10 +319,6 @@ img {
   margin: 1.5rem 0;
   border-radius: 0.35rem;
   cursor: zoom-in;
-}
-
-.foto-recepta img {
-  width: 100%;
 }
 
 
@@ -370,6 +373,17 @@ img {
   border: 0;
 }
 
+/* Fonts i credits */
+.llista-fonts li {
+  margin-bottom: 1rem;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.llista-fonts code {
+  font-size: 0.85rem;
+}
+
 /* Peu compartit */
 .peu-web {
   padding: 2rem 1rem;
@@ -380,10 +394,6 @@ img {
 
 .peu-interior {
   align-items: flex-start;
-}
-
-.peu-interior nav {
-  padding-top: 1rem;
 }
 
 .peu-nom {
